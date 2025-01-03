@@ -62,3 +62,41 @@ form{
     border-radius: 5px;
     border: 2px solid #cccccc;
 }
+/*responsive*/
+@media(max-width:370px){
+    .container input[type="text"] {
+        width: 250px;
+    }
+    .container .buttons {
+        width: 250px;
+    }
+    .buttons input[type="button"] {
+        width: 45px;
+    }
+    .container {
+        width: 300px;
+    }
+    form {
+        text-align: center;
+        display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media(max-width:330px){
+    .container{
+        width: 250px;
+    }
+    .container input[type="text"] {
+        width: 200px;
+        font-size: 18px;
+    }
+    .buttons input[type="button"] {
+        width: 40px;
+    }
+    .buttons #equal {
+        width: calc(100% - 20px);
+    }
+}
