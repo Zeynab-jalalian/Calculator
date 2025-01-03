@@ -33,3 +33,8 @@ form{
     font-size: 22px;
     font-weight: bold;
 }
+.container .buttons{
+    width: 300px;
+    margin: 10px 25px 0 25px;
+    padding: 10px 0;
+}
