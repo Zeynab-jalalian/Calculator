@@ -7,4 +7,4 @@
    ---
  you can see my project in [this demo](https://zeynab-jalalian.github.io/Calculator/)
 ___
-![image]()
+![image](https://github.com/Zeynab-jalalian/Calculator/blob/main/calculator.png)
