@@ -38,3 +38,22 @@ form{
     margin: 10px 25px 0 25px;
     padding: 10px 0;
 }
+.buttons input[type="button"]{
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    background: linear-gradient(#ccc,#eee);
+}
+.buttons input[type="button"]:hover{
+    background: linear-gradient(#eee,#ccc);
+}
+.buttons input#clear{
+    background: orange;
+}
+.buttons input#equal{
+    background: burlywood;
+    width: calc(100% - 12px);
+}
